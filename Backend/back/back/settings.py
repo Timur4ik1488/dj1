@@ -86,12 +86,11 @@ WSGI_APPLICATION = 'back.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-            'NAME': os.environ.get("MYSQL_DATABASE"),
-            'USER': os.environ.get("MYSQL_USER"),
-            'PASSWORD': os.environ.get("MYSQL_PASSWORD"),
-            'HOST': 'db',  # docker-compose service name 'db' resolves to host name 'db'
-            'PORT': 3306
+        'PG_DATABASE' : 'db1',
+        'PG_USER' : 'root1', 
+        'PG_PASSWORD' : '060707',
+        'DB_HOST' : '87.228.76.2',
+        'DB_PORT' : '5432',
     }
 }
 
