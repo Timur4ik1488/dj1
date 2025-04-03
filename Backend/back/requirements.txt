@@ -1,0 +1,5 @@
+django
+pillow
+gunicorn
+mysqlclient==1.4.6
+django-mysql==3.8.1
