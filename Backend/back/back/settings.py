@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'prikoly',
     # 'rest_framework',
-    'corsheaders',
+    # 'corsheaders',
 
 ]
 
